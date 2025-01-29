@@ -35,3 +35,14 @@ Before you start, make sure you have the following installed:
 
    ```bash
    git clone https://github.com/yourusername/your-repository-name.git
+2. **Install Dependencies**
+   ```bash
+   cd your-repository-name
+3. Run the following command
+   ```bash
+   npm install
+4. **Start Development Server**
+   ```bash
+   npm start
+This will open the application in your default browser, typically at http://localhost:3000.
+
