@@ -47,7 +47,9 @@ Before you start, make sure you have the following installed:
    npm start
 This will open the application in your default browser, typically at http://localhost:3000.
 
-### Project Structure
+## Project Structure
+
+```
 my-project/
 ├── public/
 │   ├── index.html
@@ -64,6 +66,8 @@ my-project/
 ├── .gitignore
 ├── package.json
 └── README.md
+```
+
 ## API Integration
 The app uses the following API endpoints from JSONPlaceholder:
 
