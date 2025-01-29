@@ -93,3 +93,7 @@ Make sure to set up the correct build settings if prompted (usually, npm run bui
       ```bash
        https://user-management-dashboard-6q7a.vercel.app.
 
+### Future Improvements
+- Implement real backend interaction instead of using the mock API (e.g., use a database and server like Express.js or Node.js).
+- Add more advanced validation for the user input form.
+- Implement pagination for large lists of users.
