@@ -9,6 +9,7 @@ export const getUsers = async () => {
     throw error;
   }
 };
+//delete user api
 export const deleteUser = async (id) => {
   try {
     await axios.delete(`${API_URL}/users/${id}`);
@@ -17,6 +18,7 @@ export const deleteUser = async (id) => {
     throw error;
   }
 };
+//edit user api
 export const editUser = async (id, updatedUser) => {
   try {
     const response = await axios.put(`${API_URL}/users/${id}`, updatedUser);
@@ -26,7 +28,7 @@ export const editUser = async (id, updatedUser) => {
     throw error;
   }
 };
-
+//add user api
 export const addUser = async (newUser) => {
   try {
     const response = await axios.post(`${API_URL}/users`, newUser);
