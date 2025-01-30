@@ -32,24 +32,27 @@ Before you start, make sure you have the following installed:
 
 ### **Steps to Run Locally**
 
-#### **1️⃣ Clone the repository**
+#### **Clone the repository**
 Open your terminal and run the following command:
 
 ```bash
 git clone https://github.com/yourusername/your-repository-name.git
-
+```
 2. **Install Dependencies**
    ```bash
    cd your-repository-name
-3. Run the following command
+   ```
+3. **Run the following command**
    ```bash
    npm install
+   ```
 4. **Start Development Server**
    ```bash
    npm start
+   ```
 This will open the application in your default browser, typically at http://localhost:3000.
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 my-project/
@@ -70,7 +73,7 @@ my-project/
 └── README.md
 ```
 
-## API Integration
+## 🔗 API Integration
 The app uses the following API endpoints from JSONPlaceholder:
 
 **GET /users**: Fetch the list of all users.
@@ -78,7 +81,7 @@ The app uses the following API endpoints from JSONPlaceholder:
 **PUT /users/:id**: Edit an existing user.
 **DELETE /users/:id**: Delete a user
 
-## Deployment on Vercel
+## 🚀 Deployment on Vercel
 Here is the step-by-step guide to deploy your application on Vercel:
 
 1. Create a Vercel account:
@@ -95,7 +98,7 @@ Make sure to set up the correct build settings if prompted (usually, npm run bui
       ```bash
        https://user-management-dashboard-6q7a.vercel.app.
 
-### Future Improvements
+### 📈 Future Improvements
 - Implement real backend interaction instead of using the mock API (e.g., use a database and server like Express.js or Node.js).
 - Add more advanced validation for the user input form.
 - Implement pagination for large lists of users.
