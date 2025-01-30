@@ -2,40 +2,42 @@
 
 A simple user management system built with React for the frontend and integrated with a backend API for managing user data. This project allows users to add, edit, and delete user information.
 
-## Features
+## 🚀 Features
 
-- **Add a New User**: Create a new user by providing name and email.
+- **Add a New User**: Create a new user by providing a name and email.
 - **Edit User Information**: Modify existing user details.
 - **Delete User**: Remove users from the list.
 - **User List**: View all users in a list format.
 - **Responsive Design**: The application is fully responsive and works well on both desktop and mobile devices.
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - **Frontend**: React, CSS
 - **API**: JSONPlaceholder (for mock backend interaction)
-- **HTTP Requests**: Fetch API or Axios for making API calls
+- **HTTP Requests**: Axios for making API calls
 - **Deployment**: Vercel (for hosting the application)
 
+---
 
-## Setup Instructions
+## 📌 Setup Instructions
 
-### Prerequisites
-
+### **Prerequisites**
 Before you start, make sure you have the following installed:
 
 - **Node.js**: [Download and install](https://nodejs.org/)
 - **Git**: [Download and install](https://git-scm.com/)
 - **A Code Editor**: Recommended - [Visual Studio Code](https://code.visualstudio.com/)
 
-### Steps to Run Locally
+---
 
-1. **Clone the repository**
+### **Steps to Run Locally**
 
-   Open your terminal and run the following command to clone the repository:
+#### **1️⃣ Clone the repository**
+Open your terminal and run the following command:
 
-   ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
+```bash
+git clone https://github.com/yourusername/your-repository-name.git
+
 2. **Install Dependencies**
    ```bash
    cd your-repository-name
