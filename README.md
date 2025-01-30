@@ -73,13 +73,14 @@ my-project/
 └── README.md
 ```
 
-## 🔗 API Integration
-The app uses the following API endpoints from JSONPlaceholder:
+## 🔗 API Integration  
+The app uses the following API endpoints from JSONPlaceholder:  
 
-**GET /users**: Fetch the list of all users.
-**POST /users**: Add a new user (simulated response).
-**PUT /users/:id**: Edit an existing user.
-**DELETE /users/:id**: Delete a user
+- **GET** `/users` → Fetch the list of all users.  
+- **POST** `/users` → Add a new user (simulated response).  
+- **PUT** `/users/:id` → Edit an existing user.  
+- **DELETE** `/users/:id` → Delete a user.  
+
 
 ## 🚀 Deployment on Vercel
 Here is the step-by-step guide to deploy your application on Vercel:
