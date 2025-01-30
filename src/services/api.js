@@ -1,5 +1,6 @@
 import axios from 'axios';
 const API_URL = 'https://jsonplaceholder.typicode.com';
+//Fetching All the users
 export const getUsers = async () => {
   try {
     const response = await axios.get(`${API_URL}/users`);
@@ -9,7 +10,7 @@ export const getUsers = async () => {
     throw error;
   }
 };
-//delete user api
+//delete user by ID
 export const deleteUser = async (id) => {
   try {
     await axios.delete(`${API_URL}/users/${id}`);
@@ -18,7 +19,7 @@ export const deleteUser = async (id) => {
     throw error;
   }
 };
-//edit user api
+//edit user
 export const editUser = async (id, updatedUser) => {
   try {
     const response = await axios.put(`${API_URL}/users/${id}`, updatedUser);
@@ -28,7 +29,7 @@ export const editUser = async (id, updatedUser) => {
     throw error;
   }
 };
-//add user api
+//Add new User
 export const addUser = async (newUser) => {
   try {
     const response = await axios.post(`${API_URL}/users`, newUser);
